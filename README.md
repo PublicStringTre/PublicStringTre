@@ -9,6 +9,14 @@
 <br><br>
 
 <img
+  src="./assets/portrait.svg"
+  width="460"
+  alt="ASCII portrait of Anthony Fieldings III"
+/>
+
+<br><br>
+
+<img
   src="./assets/stats.svg"
   width="100%"
   alt="PublicStringTre GitHub telemetry"
