@@ -1,0 +1,141 @@
+name: Update GitHub Profile
+
+on:
+  # Allow manual runs from the GitHub Actions tab.
+  workflow_dispatch:
+
+  # Refresh once per day.
+  #
+  # GitHub cron schedules use UTC.
+  # 12:17 UTC is approximately:
+  #   8:17 AM EDT
+  #   7:17 AM EST
+  schedule:
+    - cron: "17 12 * * *"
+
+# Prevent two profile refreshes from running at the same time.
+concurrency:
+  group: update-github-profile
+  cancel-in-progress: true
+
+# The built-in GitHub Actions token only needs write access
+# to THIS profile repository so it can commit generated assets.
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    name: Regenerate Profile
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      # ------------------------------------------------------------
+      # CHECKOUT
+      # ------------------------------------------------------------
+
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      # ------------------------------------------------------------
+      # PYTHON
+      # ------------------------------------------------------------
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ------------------------------------------------------------
+      # SECURITY CHECK
+      # ------------------------------------------------------------
+
+      - name: Verify profile token
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_TOKEN" ]; then
+            echo "::error::PROFILE_TOKEN repository secret is missing."
+            exit 1
+          fi
+
+          echo "PROFILE_TOKEN is configured."
+
+      # ------------------------------------------------------------
+      # GENERATORS
+      # ------------------------------------------------------------
+
+      - name: Generate hero
+        run: |
+          python scripts/generate_hero.py
+
+      - name: Generate GitHub telemetry
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          python scripts/generate_stats.py
+
+      - name: Generate language matrix
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          python scripts/generate_languages.py
+
+      - name: Generate activity signal
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          python scripts/generate_activity.py
+
+      # ------------------------------------------------------------
+      # COMMIT GENERATED ASSETS
+      # ------------------------------------------------------------
+
+      - name: Check for profile changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- \
+            assets/hero.svg \
+            assets/stats.svg \
+            assets/languages.svg \
+            assets/activity.svg; then
+
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No profile changes detected."
+
+          else
+
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Profile changes detected."
+
+          fi
+
+      - name: Commit updated profile
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            assets/hero.svg \
+            assets/stats.svg \
+            assets/languages.svg \
+            assets/activity.svg
+
+          git commit -m "chore: refresh profile telemetry"
+
+          git push
+
+      - name: Profile already current
+        if: steps.changes.outputs.changed != 'true'
+        run: |
+          echo "Profile assets are already current."
