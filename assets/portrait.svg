@@ -1,16 +1,16 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="460"
-    height="391"
-    viewBox="0 0 460 391"
+    width="500"
+    height="421"
+    viewBox="0 0 500 421"
 >
 
 <defs>
 
 <clipPath id="rowClip0">
     <rect
-        x="0"
-        y="8.68888888888889"
+        x="20"
+        y="26.68888888888889"
         width="0"
         height="11.68888888888889"
     >
@@ -27,8 +27,8 @@
 
 <clipPath id="rowClip1">
     <rect
-        x="0"
-        y="17.37777777777778"
+        x="20"
+        y="35.37777777777778"
         width="0"
         height="11.68888888888889"
     >
@@ -45,8 +45,8 @@
 
 <clipPath id="rowClip2">
     <rect
-        x="0"
-        y="26.06666666666667"
+        x="20"
+        y="44.06666666666667"
         width="0"
         height="11.68888888888889"
     >
@@ -63,8 +63,8 @@
 
 <clipPath id="rowClip3">
     <rect
-        x="0"
-        y="34.75555555555556"
+        x="20"
+        y="52.75555555555556"
         width="0"
         height="11.68888888888889"
     >
@@ -81,8 +81,8 @@
 
 <clipPath id="rowClip4">
     <rect
-        x="0"
-        y="43.44444444444445"
+        x="20"
+        y="61.44444444444444"
         width="0"
         height="11.68888888888889"
     >
@@ -99,8 +99,8 @@
 
 <clipPath id="rowClip5">
     <rect
-        x="0"
-        y="52.13333333333334"
+        x="20"
+        y="70.13333333333334"
         width="0"
         height="11.68888888888889"
     >
@@ -117,8 +117,8 @@
 
 <clipPath id="rowClip6">
     <rect
-        x="0"
-        y="60.82222222222224"
+        x="20"
+        y="78.82222222222224"
         width="0"
         height="11.68888888888889"
     >
@@ -135,8 +135,8 @@
 
 <clipPath id="rowClip7">
     <rect
-        x="0"
-        y="69.51111111111112"
+        x="20"
+        y="87.51111111111112"
         width="0"
         height="11.68888888888889"
     >
@@ -153,8 +153,8 @@
 
 <clipPath id="rowClip8">
     <rect
-        x="0"
-        y="78.20000000000002"
+        x="20"
+        y="96.20000000000002"
         width="0"
         height="11.68888888888889"
     >
@@ -171,8 +171,8 @@
 
 <clipPath id="rowClip9">
     <rect
-        x="0"
-        y="86.8888888888889"
+        x="20"
+        y="104.8888888888889"
         width="0"
         height="11.68888888888889"
     >
@@ -189,8 +189,8 @@
 
 <clipPath id="rowClip10">
     <rect
-        x="0"
-        y="95.57777777777778"
+        x="20"
+        y="113.57777777777778"
         width="0"
         height="11.68888888888889"
     >
@@ -207,8 +207,8 @@
 
 <clipPath id="rowClip11">
     <rect
-        x="0"
-        y="104.26666666666668"
+        x="20"
+        y="122.26666666666667"
         width="0"
         height="11.68888888888889"
     >
@@ -225,8 +225,8 @@
 
 <clipPath id="rowClip12">
     <rect
-        x="0"
-        y="112.95555555555558"
+        x="20"
+        y="130.95555555555558"
         width="0"
         height="11.68888888888889"
     >
@@ -243,8 +243,8 @@
 
 <clipPath id="rowClip13">
     <rect
-        x="0"
-        y="121.64444444444446"
+        x="20"
+        y="139.64444444444445"
         width="0"
         height="11.68888888888889"
     >
@@ -261,8 +261,8 @@
 
 <clipPath id="rowClip14">
     <rect
-        x="0"
-        y="130.33333333333331"
+        x="20"
+        y="148.33333333333331"
         width="0"
         height="11.68888888888889"
     >
@@ -279,8 +279,8 @@
 
 <clipPath id="rowClip15">
     <rect
-        x="0"
-        y="139.02222222222224"
+        x="20"
+        y="157.02222222222224"
         width="0"
         height="11.68888888888889"
     >
@@ -297,8 +297,8 @@
 
 <clipPath id="rowClip16">
     <rect
-        x="0"
-        y="147.7111111111111"
+        x="20"
+        y="165.7111111111111"
         width="0"
         height="11.68888888888889"
     >
@@ -315,8 +315,8 @@
 
 <clipPath id="rowClip17">
     <rect
-        x="0"
-        y="156.40000000000003"
+        x="20"
+        y="174.40000000000003"
         width="0"
         height="11.68888888888889"
     >
@@ -333,8 +333,8 @@
 
 <clipPath id="rowClip18">
     <rect
-        x="0"
-        y="165.0888888888889"
+        x="20"
+        y="183.0888888888889"
         width="0"
         height="11.68888888888889"
     >
@@ -351,8 +351,8 @@
 
 <clipPath id="rowClip19">
     <rect
-        x="0"
-        y="173.77777777777777"
+        x="20"
+        y="191.77777777777777"
         width="0"
         height="11.68888888888889"
     >
@@ -369,8 +369,8 @@
 
 <clipPath id="rowClip20">
     <rect
-        x="0"
-        y="182.4666666666667"
+        x="20"
+        y="200.4666666666667"
         width="0"
         height="11.68888888888889"
     >
@@ -387,8 +387,8 @@
 
 <clipPath id="rowClip21">
     <rect
-        x="0"
-        y="191.15555555555557"
+        x="20"
+        y="209.15555555555557"
         width="0"
         height="11.68888888888889"
     >
@@ -405,8 +405,8 @@
 
 <clipPath id="rowClip22">
     <rect
-        x="0"
-        y="199.84444444444443"
+        x="20"
+        y="217.84444444444443"
         width="0"
         height="11.68888888888889"
     >
@@ -423,8 +423,8 @@
 
 <clipPath id="rowClip23">
     <rect
-        x="0"
-        y="208.53333333333336"
+        x="20"
+        y="226.53333333333336"
         width="0"
         height="11.68888888888889"
     >
@@ -441,8 +441,8 @@
 
 <clipPath id="rowClip24">
     <rect
-        x="0"
-        y="217.22222222222223"
+        x="20"
+        y="235.22222222222223"
         width="0"
         height="11.68888888888889"
     >
@@ -459,8 +459,8 @@
 
 <clipPath id="rowClip25">
     <rect
-        x="0"
-        y="225.91111111111115"
+        x="20"
+        y="243.91111111111115"
         width="0"
         height="11.68888888888889"
     >
@@ -477,8 +477,8 @@
 
 <clipPath id="rowClip26">
     <rect
-        x="0"
-        y="234.60000000000002"
+        x="20"
+        y="252.60000000000002"
         width="0"
         height="11.68888888888889"
     >
@@ -495,8 +495,8 @@
 
 <clipPath id="rowClip27">
     <rect
-        x="0"
-        y="243.2888888888889"
+        x="20"
+        y="261.2888888888889"
         width="0"
         height="11.68888888888889"
     >
@@ -513,8 +513,8 @@
 
 <clipPath id="rowClip28">
     <rect
-        x="0"
-        y="251.97777777777782"
+        x="20"
+        y="269.9777777777778"
         width="0"
         height="11.68888888888889"
     >
@@ -531,8 +531,8 @@
 
 <clipPath id="rowClip29">
     <rect
-        x="0"
-        y="260.6666666666667"
+        x="20"
+        y="278.6666666666667"
         width="0"
         height="11.68888888888889"
     >
@@ -549,8 +549,8 @@
 
 <clipPath id="rowClip30">
     <rect
-        x="0"
-        y="269.3555555555556"
+        x="20"
+        y="287.3555555555556"
         width="0"
         height="11.68888888888889"
     >
@@ -567,8 +567,8 @@
 
 <clipPath id="rowClip31">
     <rect
-        x="0"
-        y="278.0444444444445"
+        x="20"
+        y="296.0444444444445"
         width="0"
         height="11.68888888888889"
     >
@@ -585,8 +585,8 @@
 
 <clipPath id="rowClip32">
     <rect
-        x="0"
-        y="286.73333333333335"
+        x="20"
+        y="304.73333333333335"
         width="0"
         height="11.68888888888889"
     >
@@ -603,8 +603,8 @@
 
 <clipPath id="rowClip33">
     <rect
-        x="0"
-        y="295.4222222222223"
+        x="20"
+        y="313.4222222222223"
         width="0"
         height="11.68888888888889"
     >
@@ -621,8 +621,8 @@
 
 <clipPath id="rowClip34">
     <rect
-        x="0"
-        y="304.11111111111114"
+        x="20"
+        y="322.11111111111114"
         width="0"
         height="11.68888888888889"
     >
@@ -639,8 +639,8 @@
 
 <clipPath id="rowClip35">
     <rect
-        x="0"
-        y="312.80000000000007"
+        x="20"
+        y="330.80000000000007"
         width="0"
         height="11.68888888888889"
     >
@@ -657,8 +657,8 @@
 
 <clipPath id="rowClip36">
     <rect
-        x="0"
-        y="321.48888888888894"
+        x="20"
+        y="339.48888888888894"
         width="0"
         height="11.68888888888889"
     >
@@ -675,8 +675,8 @@
 
 <clipPath id="rowClip37">
     <rect
-        x="0"
-        y="330.1777777777778"
+        x="20"
+        y="348.1777777777778"
         width="0"
         height="11.68888888888889"
     >
@@ -693,8 +693,8 @@
 
 <clipPath id="rowClip38">
     <rect
-        x="0"
-        y="338.86666666666673"
+        x="20"
+        y="356.86666666666673"
         width="0"
         height="11.68888888888889"
     >
@@ -711,8 +711,8 @@
 
 <clipPath id="rowClip39">
     <rect
-        x="0"
-        y="347.5555555555556"
+        x="20"
+        y="365.5555555555556"
         width="0"
         height="11.68888888888889"
     >
@@ -729,8 +729,8 @@
 
 <clipPath id="rowClip40">
     <rect
-        x="0"
-        y="356.24444444444447"
+        x="20"
+        y="374.24444444444447"
         width="0"
         height="11.68888888888889"
     >
@@ -747,8 +747,8 @@
 
 <clipPath id="rowClip41">
     <rect
-        x="0"
-        y="364.9333333333334"
+        x="20"
+        y="382.9333333333334"
         width="0"
         height="11.68888888888889"
     >
@@ -765,8 +765,8 @@
 
 <clipPath id="rowClip42">
     <rect
-        x="0"
-        y="373.62222222222226"
+        x="20"
+        y="391.62222222222226"
         width="0"
         height="11.68888888888889"
     >
@@ -783,10 +783,30 @@
 
 </defs>
 
+<!-- ======================================================
+     BACKGROUND CARD
+     ====================================================== -->
+
+<rect
+    x="0.75"
+    y="0.75"
+    width="498.5"
+    height="419.62222222222226"
+    rx="18"
+    ry="18"
+    fill="#0d1117"
+    stroke="#30363d"
+    stroke-width="1.5"
+/>
+
+<!-- ======================================================
+     ASCII PORTRAIT
+     ====================================================== -->
+
 
 <text
-    x="0"
-    y="17.20740740740741"
+    x="20"
+    y="35.20740740740741"
     xml:space="preserve"
     clip-path="url(#rowClip0)"
     fill="#f5f3ff"
@@ -795,8 +815,8 @@
 >                                                                                          </text>
 
 <text
-    x="0"
-    y="25.8962962962963"
+    x="20"
+    y="43.8962962962963"
     xml:space="preserve"
     clip-path="url(#rowClip1)"
     fill="#f5f3ff"
@@ -805,8 +825,8 @@
 >                                                                                          </text>
 
 <text
-    x="0"
-    y="34.58518518518519"
+    x="20"
+    y="52.58518518518519"
     xml:space="preserve"
     clip-path="url(#rowClip2)"
     fill="#f5f3ff"
@@ -815,48 +835,48 @@
 >                                                                                          </text>
 
 <text
-    x="0"
-    y="43.27407407407408"
+    x="20"
+    y="61.27407407407408"
     xml:space="preserve"
     clip-path="url(#rowClip3)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                                        :-=+****+-:                                       </text>
+>                                        .-=++**+=-.                                       </text>
 
 <text
-    x="0"
-    y="51.96296296296297"
+    x="20"
+    y="69.96296296296296"
     xml:space="preserve"
     clip-path="url(#rowClip4)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                                    :+%MWWWWWWWWWWMM%+-.                                  </text>
+>                                    :+%MWWWWWWWWWWMM%+:                                   </text>
 
 <text
-    x="0"
-    y="60.65185185185186"
+    x="20"
+    y="78.65185185185186"
     xml:space="preserve"
     clip-path="url(#rowClip5)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                                 -#MWMMM@@@%%%#*++++**#%#:                                </text>
+>                                 -#MWMMM@@%%%%#*+++++*#%*:                                </text>
 
 <text
-    x="0"
-    y="69.34074074074076"
+    x="20"
+    y="87.34074074074076"
     xml:space="preserve"
     clip-path="url(#rowClip6)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                               :@W&amp;WMMM@%%%###%%%##*****#M*                               </text>
+>                               :%W&amp;WM@M@%%%####%%##*****#M+                               </text>
 
 <text
-    x="0"
-    y="78.02962962962964"
+    x="20"
+    y="96.02962962962964"
     xml:space="preserve"
     clip-path="url(#rowClip7)"
     fill="#f5f3ff"
@@ -865,360 +885,364 @@
 >                              :M&amp;&amp;WMMM@%%##***#%@@@%%%####M*                              </text>
 
 <text
-    x="0"
-    y="86.71851851851854"
+    x="20"
+    y="104.71851851851854"
     xml:space="preserve"
     clip-path="url(#rowClip8)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                              #W&amp;&amp;WMM@%##*====++*%@@@@%%@%%M-                             </text>
+>                              #W&amp;&amp;WMM@%#**====++*#@@@@%%%%%M:                             </text>
 
 <text
-    x="0"
-    y="95.40740740740742"
+    x="20"
+    y="113.40740740740742"
     xml:space="preserve"
     clip-path="url(#rowClip9)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                             .MWWWMMM%**++=--:-==*#%@@%@@@%@*                             </text>
+>                             .MWWWMMM%**++=--:-=+*#%@@%@@%#@+                             </text>
 
 <text
-    x="0"
-    y="104.0962962962963"
+    x="20"
+    y="122.0962962962963"
     xml:space="preserve"
     clip-path="url(#rowClip10)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                             :@MMWWMM%#+==-:::::-=*##%@M@@%**                             </text>
+>                             :@MMMWMM%#+==-:::::-=*##%@@@@%**                             </text>
 
 <text
-    x="0"
-    y="112.7851851851852"
+    x="20"
+    y="130.78518518518518"
     xml:space="preserve"
     clip-path="url(#rowClip11)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                             .%%MWWWWMWMMM@#+-.:=#WWWWWWWM%*=                             </text>
+>                             .#%MWWWWMWMMM@#+-.:=#WWWWWWWM%*-                             </text>
 
 <text
-    x="0"
-    y="121.4740740740741"
+    x="20"
+    y="139.4740740740741"
     xml:space="preserve"
     clip-path="url(#rowClip12)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                             .+#MMWM@%%#**%@M%++#MWMM@MMMM@#-                             </text>
+>                             .+#MMMM@%%#**%@M%++#@WMM@MMMM@#:                             </text>
 
 <text
-    x="0"
-    y="130.16296296296298"
+    x="20"
+    y="148.16296296296298"
     xml:space="preserve"
     clip-path="url(#rowClip13)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                            -#@@MW@@M&amp;@@W%*@#@#=%@MMWW%MW@%#*.                            </text>
+>                            -*@@MW@@M&amp;@@W%*@#@#=%@MMWW%MW@%#*.                            </text>
 
 <text
-    x="0"
-    y="138.85185185185185"
+    x="20"
+    y="156.85185185185185"
     xml:space="preserve"
     clip-path="url(#rowClip14)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                            -*%M@M@%#%%#++==#@#=*@*+#%@%*+**=                             </text>
+>                            :*%M@M@%#%%#++==#@#=*@*+#%@%*+**=                             </text>
 
 <text
-    x="0"
-    y="147.54074074074077"
+    x="20"
+    y="165.54074074074077"
     xml:space="preserve"
     clip-path="url(#rowClip15)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                            .+#M@MM%*=::..:+M%*+=*#+----=+**-                             </text>
+>                             +*M@MM%+=::..:+M%*+=*#+----=+**-                             </text>
 
 <text
-    x="0"
-    y="156.22962962962964"
+    x="20"
+    y="174.22962962962964"
     xml:space="preserve"
     clip-path="url(#rowClip16)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                             -#M@MM@#=-:..:##+-.:=+==--=+*##:                             </text>
+>                             -#M@MM@#=-:..:##+-.:=+==--=+**#:                             </text>
 
 <text
-    x="0"
-    y="164.91851851851857"
+    x="20"
+    y="182.91851851851857"
     xml:space="preserve"
     clip-path="url(#rowClip17)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                              -%@MMM%*=:.:-#%@@#*%%#+**#%%%#-                             </text>
+>                              :%@MMM%*=:.:=#%@@#*%%#+**#%%%#-                             </text>
 
 <text
-    x="0"
-    y="173.60740740740744"
+    x="20"
+    y="191.60740740740744"
     xml:space="preserve"
     clip-path="url(#rowClip18)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                              :-@@MWM%*==+**#%%#**%%%%@@MM@#=                             </text>
+>                              ::%@MMM%*==+*##%%#**%%%%@@MM@#=                             </text>
 
 <text
-    x="0"
-    y="182.2962962962963"
+    x="20"
+    y="200.2962962962963"
     xml:space="preserve"
     clip-path="url(#rowClip19)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                               -#WMMMMM%%MWM@%++*#@MWWWMMMM@=                             </text>
+>                               -#WMMMMM%%MWM@%++*#@MWWWMMMM@-                             </text>
 
 <text
-    x="0"
-    y="190.98518518518523"
+    x="20"
+    y="208.98518518518523"
     xml:space="preserve"
     clip-path="url(#rowClip20)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                              .=+WWM@MM@M%%@%*-::-+#%%MMWWWM=                             </text>
+>                               -*WWM@MM@M%%@%*-::-+#%%MMWWW@-                             </text>
 
 <text
-    x="0"
-    y="199.6740740740741"
+    x="20"
+    y="217.6740740740741"
     xml:space="preserve"
     clip-path="url(#rowClip21)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                              :==W&amp;&amp;WWWWM#**%%MMWM%#*%W&amp;&amp;&amp;W#=                             </text>
+>                              :=-W&amp;&amp;WWWWM#**%%MMWM%#*%W&amp;&amp;&amp;W#:                             </text>
 
 <text
-    x="0"
-    y="208.36296296296297"
+    x="20"
+    y="226.36296296296297"
     xml:space="preserve"
     clip-path="url(#rowClip22)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                           .=%M#%@W&amp;W&amp;W&amp;W@%##======*#@&amp;&amp;&amp;&amp;M=                              </text>
+>                           .-#M#%@W&amp;WWW&amp;W@%##+=====*#@&amp;&amp;&amp;WM-                              </text>
 
 <text
-    x="0"
-    y="217.0518518518519"
+    x="20"
+    y="235.0518518518519"
     xml:space="preserve"
     clip-path="url(#rowClip23)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                          =%MWWW@%@WWW&amp;&amp;&amp;WM@@%####%@@W&amp;&amp;WM+.                              </text>
+>                          =%MWWW@%@WWWW&amp;&amp;WM@@%####%@@W&amp;&amp;W@=.                              </text>
 
 <text
-    x="0"
-    y="225.74074074074076"
+    x="20"
+    y="243.74074074074076"
     xml:space="preserve"
     clip-path="url(#rowClip24)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                         -%MMWW&amp;W##%@WWWW&amp;&amp;&amp;&amp;WWWWWWWW&amp;WM@*.                               </text>
+>                         -%MMWW&amp;W#*%@WWWW&amp;&amp;&amp;&amp;WWWWWWWWWWM@+.                               </text>
 
 <text
-    x="0"
-    y="234.4296296296297"
+    x="20"
+    y="252.4296296296297"
     xml:space="preserve"
     clip-path="url(#rowClip25)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                        :%MMWWW&amp;&amp;M*++#@MWWWWW&amp;&amp;WWWWWWWMM*:                                </text>
+>                        :%@MWWWW&amp;M*++#@MWWWWW&amp;&amp;WWWWWWWM@+.                                </text>
 
 <text
-    x="0"
-    y="243.11851851851856"
+    x="20"
+    y="261.11851851851856"
     xml:space="preserve"
     clip-path="url(#rowClip26)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                     .:+%MMWWWWW&amp;&amp;W*===+#@MWWWWWWWWWM%M&amp;M*.                               </text>
+>                      :+%MMWWWWW&amp;&amp;W*===+#@MWWWWWWWWWM%M&amp;W*.                               </text>
 
 <text
-    x="0"
-    y="251.80740740740742"
+    x="20"
+    y="269.8074074074074"
     xml:space="preserve"
     clip-path="url(#rowClip27)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                  :=*%MMMWMWWWWWWW&amp;M+=--=+#%%@@@@@@%##W&amp;&amp;W@*-.                            </text>
+>                  .=*%MMMWMWWWWWWW&amp;M+=--=+#%%@@@@@@%##W&amp;&amp;W@*-.                            </text>
 
 <text
-    x="0"
-    y="260.49629629629635"
+    x="20"
+    y="278.49629629629635"
     xml:space="preserve"
     clip-path="url(#rowClip28)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->               :=#@MMMWWMMWWWWW&amp;&amp;&amp;&amp;WM+===++*++*#####%@M&amp;&amp;&amp;W@%#*=:                         </text>
+>               .=#@@MMWWMMWWWWW&amp;&amp;&amp;&amp;WM+===++*++*#####%@M&amp;&amp;&amp;W@%#*=:                         </text>
 
 <text
-    x="0"
-    y="269.1851851851852"
+    x="20"
+    y="287.1851851851852"
     xml:space="preserve"
     clip-path="url(#rowClip29)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->            .=#@MMMWWWW&amp;&amp;&amp;W&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;W@*++*****#####@@%%W&amp;&amp;WM@%#@@#+-.                     </text>
+>            .=#@MMMMWWW&amp;&amp;&amp;W&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;W@*++*****#####@@%%W&amp;&amp;WM@%#@@#+:                      </text>
 
 <text
-    x="0"
-    y="277.87407407407414"
+    x="20"
+    y="295.87407407407414"
     xml:space="preserve"
     clip-path="url(#rowClip30)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->         .=#@MWWWWWWWWW&amp;&amp;&amp;WW&amp;WW&amp;&amp;&amp;&amp;&amp;&amp;&amp;M%*+*####*++#%++#WW&amp;&amp;&amp;WMM&amp;W@@@%*-.                  </text>
+>          -*@MMWWWWWWWW&amp;&amp;&amp;WWWWW&amp;&amp;&amp;&amp;&amp;&amp;&amp;M%*+*####*++#%+=#WW&amp;&amp;&amp;WMM&amp;W@@@%+-                   </text>
 
 <text
-    x="0"
-    y="286.562962962963"
+    x="20"
+    y="304.562962962963"
     xml:space="preserve"
     clip-path="url(#rowClip31)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->       .*@MWWWWWWWWWWWW&amp;&amp;&amp;&amp;WWWWWW&amp;&amp;&amp;&amp;&amp;&amp;WM#==+*+--=+=--*WWW&amp;&amp;&amp;W&amp;WWWMMMM@@+.                </text>
+>        *@MWWWWWWWWWWWW&amp;&amp;&amp;&amp;WWWWWW&amp;&amp;&amp;&amp;&amp;&amp;WM#==+*+--=+=--*WWWW&amp;&amp;W&amp;WWWMMMM@%=                 </text>
 
 <text
-    x="0"
-    y="295.2518518518519"
+    x="20"
+    y="313.2518518518519"
     xml:space="preserve"
     clip-path="url(#rowClip32)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->        =MWW&amp;&amp;WWWWWWWWW&amp;&amp;&amp;&amp;&amp;&amp;WWWWW&amp;&amp;&amp;&amp;&amp;&amp;WW@*===-:-=:::*WWWWW&amp;WWWWWWMMMWWM%:               </text>
+>        -MWW&amp;&amp;WWWWWWWWW&amp;&amp;&amp;&amp;&amp;&amp;WWWWW&amp;&amp;&amp;&amp;&amp;&amp;WW@*===-:-=:::*WWWWW&amp;WWWWWWMMMMMM%:               </text>
 
 <text
-    x="0"
-    y="303.9407407407408"
+    x="20"
+    y="321.9407407407408"
     xml:space="preserve"
     clip-path="url(#rowClip33)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->         :@W&amp;WWWWWWWWWW&amp;WWWW&amp;&amp;WWWWWW&amp;&amp;&amp;&amp;&amp;&amp;&amp;W%*--::::::#WMWMWWMMMMMWWMWWWWM@=              </text>
+>         .%&amp;&amp;WWWWWWWWWWWWWWW&amp;&amp;WWWWWW&amp;&amp;&amp;&amp;&amp;&amp;&amp;W%*--::::::#WMWMWWMMMMMWWMWWWWM@-              </text>
 
 <text
-    x="0"
-    y="312.6296296296297"
+    x="20"
+    y="330.6296296296297"
     xml:space="preserve"
     clip-path="url(#rowClip34)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->           +MWWWWWWWWWWW&amp;&amp;WWWWWWWWWMW&amp;WW&amp;WW&amp;&amp;W@+-::::-%MMMMWWMMMMMMMMWWWWWMM=             </text>
+>           =MWWWWWWWWWWW&amp;&amp;WWWWWWWWWMWWWWWWW&amp;&amp;W@+-::::-%MMMMWWMMMMMMMMWWWWWMM=             </text>
 
 <text
-    x="0"
-    y="321.3185185185186"
+    x="20"
+    y="339.3185185185186"
     xml:space="preserve"
     clip-path="url(#rowClip35)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->            .*WWWWWWWWWWWW&amp;WWWWWWWWMMWWWWWW&amp;&amp;&amp;&amp;W%=---=@MMWMWMWMMMMMMMWWWWWWM*             </text>
+>            .+MWWWWWWWWWWWWWWWWWWWWMMWWWWWW&amp;&amp;&amp;&amp;W%=---=@MMMMWMMMMMMMMMMWWWWWM+             </text>
 
 <text
-    x="0"
-    y="330.00740740740747"
+    x="20"
+    y="348.00740740740747"
     xml:space="preserve"
     clip-path="url(#rowClip36)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->              .*MWWWWWMWWWMWWWWWWWWWWMMMMMWWWWW&amp;&amp;M*-=+MMMWWMMMMMMWWWMMWWWW*.              </text>
+>              .+MWWWWWMMWWMWWWWWWWWWWMMMMMWWWWW&amp;&amp;M*-=+MMMWWMMMMMMWWWMMMWWW*.              </text>
 
 <text
-    x="0"
-    y="338.69629629629634"
+    x="20"
+    y="356.69629629629634"
     xml:space="preserve"
     clip-path="url(#rowClip37)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                .=@WWWWMW&amp;&amp;MWWWWWWWWWMMMMWWWWWWWWWW%+*WWMWWWWMMMMWWWWWM%=.                </text>
+>                 =%WWWWMW&amp;&amp;MWWWWWWWWMMMMMMMWWWWWWWW%+*WMMWWWWMMMMWWWWWM%=                 </text>
 
 <text
-    x="0"
-    y="347.38518518518526"
+    x="20"
+    y="365.38518518518526"
     xml:space="preserve"
     clip-path="url(#rowClip38)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                   :+@WWWW&amp;&amp;MWWWMMWWWWWWMMMMMMMWWWWWM#WMWWWWWWMWWWWWM*:                   </text>
+>                   .+@WWWW&amp;&amp;MMWWMMWWWWWWMMMMMMMWWWWWM#WMWWWWWWMMMMWWM*:                   </text>
 
 <text
-    x="0"
-    y="356.07407407407413"
+    x="20"
+    y="374.07407407407413"
     xml:space="preserve"
     clip-path="url(#rowClip39)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                      :=#MW&amp;WWWWWWWWWWWWWWMMMMMMMWMMWWWWWWWWWWWWM%+:                      </text>
+>                      .=#MW&amp;WMWWWWWWWWWWWMMMMMMMMMMMWWWWWWWWWWWWM#+:                      </text>
 
 <text
-    x="0"
-    y="364.762962962963"
+    x="20"
+    y="382.762962962963"
     xml:space="preserve"
     clip-path="url(#rowClip40)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                          :+#@WWWWWWWWWWWWMMWMMMMMMMW&amp;WWWWWM@#+-                          </text>
+>                          :+#@WWWWWWWWWWWWMMMMMMMMMMW&amp;WWWWWW@#+:                          </text>
 
 <text
-    x="0"
-    y="373.4518518518519"
+    x="20"
+    y="391.4518518518519"
     xml:space="preserve"
     clip-path="url(#rowClip41)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                               :=+*%@MWWWWMMMMMMMMMMMM%*+=:.                              </text>
+>                               :-+*#@MWWWWMMMMMMMMMMMM%*+=:                               </text>
 
 <text
-    x="0"
-    y="382.1407407407408"
+    x="20"
+    y="400.1407407407408"
     xml:space="preserve"
     clip-path="url(#rowClip42)"
     fill="#f5f3ff"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="8.52"
->                                       ..::::::::..                                       </text>
+>                                        .::::::::..                                       </text>
 
+
+<!-- ======================================================
+     TYPING CURSORS
+     ====================================================== -->
 
 
 <rect
-    x="0"
-    y="9.68888888888889"
+    x="20"
+    y="27.68888888888889"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1232,8 +1256,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.00s"
         fill="freeze"
@@ -1247,8 +1271,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="18.37777777777778"
+    x="20"
+    y="36.37777777777778"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1262,8 +1286,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.09s"
         fill="freeze"
@@ -1277,8 +1301,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="27.06666666666667"
+    x="20"
+    y="45.06666666666667"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1292,8 +1316,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.18s"
         fill="freeze"
@@ -1307,8 +1331,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="35.75555555555556"
+    x="20"
+    y="53.75555555555556"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1322,8 +1346,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.27s"
         fill="freeze"
@@ -1337,8 +1361,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="44.44444444444445"
+    x="20"
+    y="62.44444444444444"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1352,8 +1376,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.36s"
         fill="freeze"
@@ -1367,8 +1391,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="53.13333333333334"
+    x="20"
+    y="71.13333333333334"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1382,8 +1406,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.45s"
         fill="freeze"
@@ -1397,8 +1421,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="61.82222222222224"
+    x="20"
+    y="79.82222222222224"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1412,8 +1436,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.54s"
         fill="freeze"
@@ -1427,8 +1451,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="70.51111111111112"
+    x="20"
+    y="88.51111111111112"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1442,8 +1466,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.63s"
         fill="freeze"
@@ -1457,8 +1481,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="79.20000000000002"
+    x="20"
+    y="97.20000000000002"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1472,8 +1496,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.72s"
         fill="freeze"
@@ -1487,8 +1511,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="87.8888888888889"
+    x="20"
+    y="105.8888888888889"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1502,8 +1526,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.81s"
         fill="freeze"
@@ -1517,8 +1541,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="96.57777777777778"
+    x="20"
+    y="114.57777777777778"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1532,8 +1556,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.90s"
         fill="freeze"
@@ -1547,8 +1571,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="105.26666666666668"
+    x="20"
+    y="123.26666666666667"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1562,8 +1586,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="0.99s"
         fill="freeze"
@@ -1577,8 +1601,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="113.95555555555558"
+    x="20"
+    y="131.95555555555558"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1592,8 +1616,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.08s"
         fill="freeze"
@@ -1607,8 +1631,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="122.64444444444446"
+    x="20"
+    y="140.64444444444445"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1622,8 +1646,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.17s"
         fill="freeze"
@@ -1637,8 +1661,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="131.33333333333331"
+    x="20"
+    y="149.33333333333331"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1652,8 +1676,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.26s"
         fill="freeze"
@@ -1667,8 +1691,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="140.02222222222224"
+    x="20"
+    y="158.02222222222224"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1682,8 +1706,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.35s"
         fill="freeze"
@@ -1697,8 +1721,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="148.7111111111111"
+    x="20"
+    y="166.7111111111111"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1712,8 +1736,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.44s"
         fill="freeze"
@@ -1727,8 +1751,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="157.40000000000003"
+    x="20"
+    y="175.40000000000003"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1742,8 +1766,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.53s"
         fill="freeze"
@@ -1757,8 +1781,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="166.0888888888889"
+    x="20"
+    y="184.0888888888889"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1772,8 +1796,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.62s"
         fill="freeze"
@@ -1787,8 +1811,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="174.77777777777777"
+    x="20"
+    y="192.77777777777777"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1802,8 +1826,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.71s"
         fill="freeze"
@@ -1817,8 +1841,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="183.4666666666667"
+    x="20"
+    y="201.4666666666667"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1832,8 +1856,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.80s"
         fill="freeze"
@@ -1847,8 +1871,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="192.15555555555557"
+    x="20"
+    y="210.15555555555557"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1862,8 +1886,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.89s"
         fill="freeze"
@@ -1877,8 +1901,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="200.84444444444443"
+    x="20"
+    y="218.84444444444443"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1892,8 +1916,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="1.98s"
         fill="freeze"
@@ -1907,8 +1931,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="209.53333333333336"
+    x="20"
+    y="227.53333333333336"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1922,8 +1946,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.07s"
         fill="freeze"
@@ -1937,8 +1961,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="218.22222222222223"
+    x="20"
+    y="236.22222222222223"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1952,8 +1976,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.16s"
         fill="freeze"
@@ -1967,8 +1991,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="226.91111111111115"
+    x="20"
+    y="244.91111111111115"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -1982,8 +2006,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.25s"
         fill="freeze"
@@ -1997,8 +2021,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="235.60000000000002"
+    x="20"
+    y="253.60000000000002"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2012,8 +2036,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.34s"
         fill="freeze"
@@ -2027,8 +2051,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="244.2888888888889"
+    x="20"
+    y="262.2888888888889"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2042,8 +2066,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.43s"
         fill="freeze"
@@ -2057,8 +2081,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="252.97777777777782"
+    x="20"
+    y="270.9777777777778"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2072,8 +2096,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.52s"
         fill="freeze"
@@ -2087,8 +2111,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="261.6666666666667"
+    x="20"
+    y="279.6666666666667"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2102,8 +2126,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.61s"
         fill="freeze"
@@ -2117,8 +2141,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="270.3555555555556"
+    x="20"
+    y="288.3555555555556"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2132,8 +2156,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.70s"
         fill="freeze"
@@ -2147,8 +2171,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="279.0444444444445"
+    x="20"
+    y="297.0444444444445"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2162,8 +2186,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.79s"
         fill="freeze"
@@ -2177,8 +2201,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="287.73333333333335"
+    x="20"
+    y="305.73333333333335"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2192,8 +2216,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.88s"
         fill="freeze"
@@ -2207,8 +2231,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="296.4222222222223"
+    x="20"
+    y="314.4222222222223"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2222,8 +2246,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="2.97s"
         fill="freeze"
@@ -2237,8 +2261,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="305.11111111111114"
+    x="20"
+    y="323.11111111111114"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2252,8 +2276,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.06s"
         fill="freeze"
@@ -2267,8 +2291,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="313.80000000000007"
+    x="20"
+    y="331.80000000000007"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2282,8 +2306,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.15s"
         fill="freeze"
@@ -2297,8 +2321,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="322.48888888888894"
+    x="20"
+    y="340.48888888888894"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2312,8 +2336,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.24s"
         fill="freeze"
@@ -2327,8 +2351,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="331.1777777777778"
+    x="20"
+    y="349.1777777777778"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2342,8 +2366,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.33s"
         fill="freeze"
@@ -2357,8 +2381,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="339.86666666666673"
+    x="20"
+    y="357.86666666666673"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2372,8 +2396,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.42s"
         fill="freeze"
@@ -2387,8 +2411,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="348.5555555555556"
+    x="20"
+    y="366.5555555555556"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2402,8 +2426,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.51s"
         fill="freeze"
@@ -2417,8 +2441,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="357.24444444444447"
+    x="20"
+    y="375.24444444444447"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2432,8 +2456,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.60s"
         fill="freeze"
@@ -2447,8 +2471,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="365.9333333333334"
+    x="20"
+    y="383.9333333333334"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2462,8 +2486,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.69s"
         fill="freeze"
@@ -2477,8 +2501,8 @@
 </rect>
 
 <rect
-    x="0"
-    y="374.62222222222226"
+    x="20"
+    y="392.62222222222226"
     width="3.41"
     height="9.52"
     fill="#a78bfa"
@@ -2492,8 +2516,8 @@
 
     <animate
         attributeName="x"
-        from="0"
-        to="456.59"
+        from="20"
+        to="476.59"
         dur="0.72s"
         begin="3.78s"
         fill="freeze"

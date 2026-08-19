@@ -13,21 +13,58 @@ from rembg import remove
 # SETTINGS
 # ============================================================
 
-# Recommended by the portrait guide.
+# Number of ASCII characters across the portrait.
 COLS = 90
 
-# 13 brightness levels.
-# IMPORTANT: the first character is a SPACE.
-# White pixels map to the blank end of the ramp.
+# Brightness levels used to render the portrait.
+#
+# IMPORTANT:
+# The first character is a SPACE.
+#
+# White pixels map toward the blank end of the ramp.
+# Dark pixels map toward the dense characters.
 ASCII_RAMP = " .:-=+*#%@MW&"
 
 # Monospace characters are roughly twice as tall as wide.
 ROW_ASPECT_CORRECTION = 0.48
 
-# Intended display width on the GitHub README.
+# Width of the actual ASCII portrait area.
+#
+# The final SVG will be slightly wider because we now add
+# padding around the portrait for the background card.
 PORTRAIT_WIDTH = 460
 
-# Image processing settings.
+
+# ============================================================
+# CARD / SVG APPEARANCE
+# ============================================================
+
+# Extra space around the ASCII portrait.
+CARD_PADDING_X = 20
+CARD_PADDING_Y = 18
+
+# Rounded corners.
+CARD_RADIUS = 18
+
+# GitHub-style dark background.
+CARD_BACKGROUND = "#0d1117"
+
+# Subtle GitHub-style border.
+CARD_BORDER = "#30363d"
+
+CARD_BORDER_WIDTH = 1.5
+
+# ASCII portrait color.
+ASCII_COLOR = "#f5f3ff"
+
+# Purple typing cursor.
+CURSOR_COLOR = "#a78bfa"
+
+
+# ============================================================
+# IMAGE PROCESSING SETTINGS
+# ============================================================
+
 BILATERAL_DIAMETER = 7
 BILATERAL_SIGMA_COLOR = 55
 BILATERAL_SIGMA_SPACE = 55
@@ -35,11 +72,18 @@ BILATERAL_SIGMA_SPACE = 55
 CLAHE_CLIP_LIMIT = 3.0
 CLAHE_TILE_GRID = (8, 8)
 
-# Important darkening curve from the guide.
+# Darkens mid-tones while preserving highlights.
 DARKENING_POWER = 1.55
 
-# Typing animation settings.
+
+# ============================================================
+# ANIMATION SETTINGS
+# ============================================================
+
+# Delay between each ASCII row beginning its reveal.
 ROW_STAGGER = 0.09
+
+# Duration of each row's left-to-right reveal.
 ROW_WIPE_DURATION = 0.72
 
 
@@ -52,22 +96,30 @@ def remove_background(image: Image.Image):
     Remove the image background using rembg.
 
     Returns:
-        subject_rgba: PIL image with transparent background
-        alpha: NumPy alpha mask
+        subject_rgba:
+            PIL image containing the subject with a
+            transparent background.
+
+        alpha:
+            NumPy alpha mask representing the subject.
     """
 
     image = image.convert("RGBA")
 
     result = remove(image)
 
-    # rembg may return either a PIL image or bytes,
-    # depending on version/configuration.
+    # rembg may return either a PIL image or raw bytes
+    # depending on the installed version/configuration.
     if isinstance(result, bytes):
-        result = Image.open(io.BytesIO(result)).convert("RGBA")
+        result = Image.open(
+            io.BytesIO(result)
+        ).convert("RGBA")
     else:
         result = result.convert("RGBA")
 
-    alpha = np.array(result.getchannel("A"))
+    alpha = np.array(
+        result.getchannel("A")
+    )
 
     return result, alpha
 
@@ -78,14 +130,17 @@ def remove_background(image: Image.Image):
 
 def prepare_image(image: Image.Image):
     """
-    Portrait processing pipeline:
+    Prepare the source portrait for ASCII conversion.
 
-    1. Remove background with rembg
-    2. Force background to white
-    3. Convert to grayscale
-    4. Apply bilateral filtering
-    5. Apply CLAHE local contrast
-    6. Apply the ^1.7 darkening curve
+    Pipeline:
+
+    1. Remove background with rembg.
+    2. Composite the subject onto white.
+    3. Convert to grayscale.
+    4. Apply bilateral filtering.
+    5. Apply CLAHE local contrast.
+    6. Apply the 1.55 darkening curve.
+    7. Force removed-background pixels back to white.
     """
 
     subject, alpha = remove_background(image)
@@ -94,6 +149,10 @@ def prepare_image(image: Image.Image):
     # FORCE BACKGROUND TO WHITE
     # --------------------------------------------------------
 
+    # ASCII conversion treats pure white as blank space.
+    #
+    # By placing the extracted subject on white, the removed
+    # background disappears naturally from the final portrait.
     white_background = Image.new(
         "RGBA",
         subject.size,
@@ -118,14 +177,20 @@ def prepare_image(image: Image.Image):
 
     # --------------------------------------------------------
     # BILATERAL FILTER
+    # --------------------------------------------------------
     #
-    # Smooths skin while preserving important edges such as:
-    # - glasses
+    # Bilateral filtering smooths noisy areas such as skin
+    # without destroying important facial edges:
+    #
     # - eyebrows
     # - eyes
+    # - glasses
     # - nose
     # - lips
+    # - beard
     # - jawline
+    #
+    # This produces cleaner ASCII than a normal blur.
     # --------------------------------------------------------
 
     gray = cv2.bilateralFilter(
@@ -137,9 +202,14 @@ def prepare_image(image: Image.Image):
 
     # --------------------------------------------------------
     # CLAHE
+    # --------------------------------------------------------
     #
-    # Improves local contrast instead of applying one global
-    # contrast adjustment to the entire photograph.
+    # Contrast Limited Adaptive Histogram Equalization
+    # enhances local contrast.
+    #
+    # This is useful for portraits because facial features
+    # often contain subtle changes in brightness that would
+    # otherwise disappear during downsampling.
     # --------------------------------------------------------
 
     clahe = cv2.createCLAHE(
@@ -151,14 +221,26 @@ def prepare_image(image: Image.Image):
 
     # --------------------------------------------------------
     # DARKENING CURVE
+    # --------------------------------------------------------
     #
-    # (v / 255) ^ 1.7
+    # Formula:
     #
-    # This pushes mid-tones darker while preserving highlights.
-    # It helps facial features survive ASCII conversion.
+    #     (brightness / 255) ^ DARKENING_POWER
+    #
+    # With DARKENING_POWER = 1.55:
+    #
+    # - bright areas remain relatively bright
+    # - middle tones become darker
+    # - facial details become more visible
+    #
+    # This helps eyes, nose, mouth, hair, and shadows survive
+    # the aggressive reduction into ASCII.
     # --------------------------------------------------------
 
-    normalized = gray.astype(np.float32) / 255.0
+    normalized = (
+        gray.astype(np.float32)
+        / 255.0
+    )
 
     darkened = np.power(
         normalized,
@@ -171,8 +253,14 @@ def prepare_image(image: Image.Image):
         255
     ).astype(np.uint8)
 
-    # Ensure everything rembg identified as background
-    # remains pure white.
+    # --------------------------------------------------------
+    # PRESERVE REMOVED BACKGROUND
+    # --------------------------------------------------------
+    #
+    # Any pixel rembg classified as background should stay
+    # completely white so it becomes an ASCII space.
+    # --------------------------------------------------------
+
     gray[alpha < 10] = 255
 
     return gray
@@ -184,18 +272,35 @@ def prepare_image(image: Image.Image):
 
 def image_to_ascii(gray):
     """
-    Resize the processed portrait to ASCII dimensions and
-    convert each brightness value into an ASCII character.
+    Convert the processed grayscale portrait into ASCII.
+
+    The image is resized to COLS characters wide while its
+    height is corrected for the proportions of monospace
+    characters.
     """
 
     original_height, original_width = gray.shape
 
-    aspect_ratio = original_height / original_width
+    aspect_ratio = (
+        original_height
+        / original_width
+    )
 
-    # Guide formula:
+    # --------------------------------------------------------
+    # CALCULATE ASCII HEIGHT
+    # --------------------------------------------------------
     #
-    # rows = cols * (height / width) * 0.48
+    # Formula:
     #
+    # rows =
+    #     columns
+    #     * image aspect ratio
+    #     * character aspect correction
+    #
+    # Characters are taller than they are wide, so without
+    # ROW_ASPECT_CORRECTION the portrait would appear stretched.
+    # --------------------------------------------------------
+
     rows = max(
         1,
         round(
@@ -211,9 +316,15 @@ def image_to_ascii(gray):
         interpolation=cv2.INTER_AREA
     )
 
-    ramp_length = len(ASCII_RAMP)
+    ramp_length = len(
+        ASCII_RAMP
+    )
 
     lines = []
+
+    # --------------------------------------------------------
+    # MAP EACH PIXEL TO ASCII
+    # --------------------------------------------------------
 
     for row in resized:
 
@@ -223,16 +334,20 @@ def image_to_ascii(gray):
 
             # Pixel brightness:
             #
-            # 255 = white
-            #   0 = black
+            # 255 = pure white
+            #   0 = pure black
             #
-            # ASCII_RAMP begins with a space, so we convert
-            # brightness into darkness.
+            # We convert brightness to darkness because the
+            # ASCII ramp begins with the lightest character
+            # and ends with the densest.
             #
             # White -> " "
-            # Black -> densest character
+            # Black -> "&"
 
-            darkness = 1.0 - (float(value) / 255.0)
+            darkness = (
+                1.0
+                - (float(value) / 255.0)
+            )
 
             index = round(
                 darkness
@@ -241,7 +356,10 @@ def image_to_ascii(gray):
 
             index = max(
                 0,
-                min(index, ramp_length - 1)
+                min(
+                    index,
+                    ramp_length - 1
+                )
             )
 
             chars.append(
@@ -261,33 +379,80 @@ def image_to_ascii(gray):
 
 def generate_svg(lines):
     """
-    Generate an SVG portrait.
+    Generate the animated ASCII portrait SVG.
+
+    Features:
+
+    - Dark GitHub-style card background
+    - Rounded corners
+    - Subtle border
+    - Light ASCII text
+    - Purple animated cursor
+    - Row-by-row typing animation
+    - Works in GitHub light and dark mode
 
     Each ASCII row reveals from left to right using its own
-    clipPath.
-
-    Rows begin 0.09 seconds apart.
+    animated clipPath.
 
     The animation plays once and freezes in its completed state.
     """
 
-    # Approximate monospace character width is about 60%
-    # of the font size.
-    font_size = PORTRAIT_WIDTH / (COLS * 0.60)
+    # --------------------------------------------------------
+    # FONT SIZE
+    # --------------------------------------------------------
+    #
+    # Approximate monospace character width is around 60%
+    # of the selected font size.
+    #
+    # Therefore:
+    #
+    # font size =
+    #     desired portrait width
+    #     / character count
+    #     / approximate glyph-width ratio
+    # --------------------------------------------------------
 
-    line_height = font_size * 1.02
+    font_size = (
+        PORTRAIT_WIDTH
+        / (COLS * 0.60)
+    )
 
-    top_padding = font_size
+    line_height = (
+        font_size * 1.02
+    )
+
+    # --------------------------------------------------------
+    # SVG DIMENSIONS
+    # --------------------------------------------------------
+
+    svg_width = (
+        PORTRAIT_WIDTH
+        + (CARD_PADDING_X * 2)
+    )
+
+    top_padding = (
+        CARD_PADDING_Y
+        + font_size
+    )
 
     svg_height = (
         top_padding
         + len(lines) * line_height
-        + font_size
+        + CARD_PADDING_Y
+        + font_size * 0.35
     )
+
+    # --------------------------------------------------------
+    # SVG COMPONENT COLLECTIONS
+    # --------------------------------------------------------
 
     clip_defs = []
     text_rows = []
     cursors = []
+
+    # --------------------------------------------------------
+    # CREATE EACH ASCII ROW
+    # --------------------------------------------------------
 
     for i, line in enumerate(lines):
 
@@ -296,23 +461,41 @@ def generate_svg(lines):
             + ((i + 1) * line_height)
         )
 
-        begin = i * ROW_STAGGER
-        end = begin + ROW_WIPE_DURATION
+        begin = (
+            i * ROW_STAGGER
+        )
 
-        clip_id = f"rowClip{i}"
+        end = (
+            begin
+            + ROW_WIPE_DURATION
+        )
+
+        clip_id = (
+            f"rowClip{i}"
+        )
 
         # ----------------------------------------------------
         # ROW CLIP PATH
+        # ----------------------------------------------------
         #
-        # The clip rectangle expands from width 0 to the
-        # full portrait width.
+        # Each line starts completely hidden.
+        #
+        # The clipping rectangle expands from:
+        #
+        # width = 0
+        #
+        # to:
+        #
+        # width = PORTRAIT_WIDTH
+        #
+        # producing the typing/reveal effect.
         # ----------------------------------------------------
 
         clip_defs.append(
             f"""
 <clipPath id="{clip_id}">
     <rect
-        x="0"
+        x="{CARD_PADDING_X}"
         y="{y - font_size}"
         width="0"
         height="{line_height + 3}"
@@ -330,6 +513,8 @@ def generate_svg(lines):
 """
         )
 
+        # Escape characters that SVG/XML could interpret
+        # as markup.
         safe_line = html.escape(line)
 
         # ----------------------------------------------------
@@ -339,11 +524,11 @@ def generate_svg(lines):
         text_rows.append(
             f"""
 <text
-    x="0"
+    x="{CARD_PADDING_X}"
     y="{y}"
     xml:space="preserve"
     clip-path="url(#{clip_id})"
-    fill="#f5f3ff"
+    fill="{ASCII_COLOR}"
     font-family="SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"
     font-size="{font_size:.2f}"
 >{safe_line}</text>
@@ -352,9 +537,10 @@ def generate_svg(lines):
 
         # ----------------------------------------------------
         # TYPING CURSOR
+        # ----------------------------------------------------
         #
-        # A small block travels along the leading edge
-        # of each row's reveal.
+        # A small purple block follows the leading edge of the
+        # row reveal.
         # ----------------------------------------------------
 
         cursor_width = max(
@@ -362,14 +548,20 @@ def generate_svg(lines):
             font_size * 0.40
         )
 
+        cursor_end_x = (
+            CARD_PADDING_X
+            + PORTRAIT_WIDTH
+            - cursor_width
+        )
+
         cursors.append(
             f"""
 <rect
-    x="0"
+    x="{CARD_PADDING_X}"
     y="{y - font_size + 1}"
     width="{cursor_width:.2f}"
     height="{font_size + 1:.2f}"
-    fill="#a78bfa"
+    fill="{CURSOR_COLOR}"
     opacity="0"
 >
     <set
@@ -380,8 +572,8 @@ def generate_svg(lines):
 
     <animate
         attributeName="x"
-        from="0"
-        to="{PORTRAIT_WIDTH - cursor_width:.2f}"
+        from="{CARD_PADDING_X}"
+        to="{cursor_end_x:.2f}"
         dur="{ROW_WIPE_DURATION}s"
         begin="{begin:.2f}s"
         fill="freeze"
@@ -396,18 +588,46 @@ def generate_svg(lines):
 """
         )
 
+    # --------------------------------------------------------
+    # FINAL SVG
+    # --------------------------------------------------------
+
     svg = f"""<svg
     xmlns="http://www.w3.org/2000/svg"
-    width="{PORTRAIT_WIDTH}"
+    width="{svg_width}"
     height="{svg_height:.0f}"
-    viewBox="0 0 {PORTRAIT_WIDTH} {svg_height:.0f}"
+    viewBox="0 0 {svg_width} {svg_height:.0f}"
 >
 
 <defs>
 {''.join(clip_defs)}
 </defs>
 
+<!-- ======================================================
+     BACKGROUND CARD
+     ====================================================== -->
+
+<rect
+    x="{CARD_BORDER_WIDTH / 2}"
+    y="{CARD_BORDER_WIDTH / 2}"
+    width="{svg_width - CARD_BORDER_WIDTH}"
+    height="{svg_height - CARD_BORDER_WIDTH}"
+    rx="{CARD_RADIUS}"
+    ry="{CARD_RADIUS}"
+    fill="{CARD_BACKGROUND}"
+    stroke="{CARD_BORDER}"
+    stroke-width="{CARD_BORDER_WIDTH}"
+/>
+
+<!-- ======================================================
+     ASCII PORTRAIT
+     ====================================================== -->
+
 {''.join(text_rows)}
+
+<!-- ======================================================
+     TYPING CURSORS
+     ====================================================== -->
 
 {''.join(cursors)}
 
@@ -424,19 +644,27 @@ def generate_svg(lines):
 def main():
 
     parser = argparse.ArgumentParser(
-        description="Generate animated ASCII portrait SVG"
+        description=(
+            "Generate an animated ASCII portrait SVG "
+            "for a GitHub profile README"
+        )
     )
 
-    # Input is optional.
+    # --------------------------------------------------------
+    # INPUT
+    # --------------------------------------------------------
+    #
+    # The input argument is optional.
     #
     # Running:
     #
-    # python3 scripts/generate_portrait.py
+    #     python3 scripts/generate_portrait.py
     #
     # automatically uses:
     #
-    # assets/portrait-source.png
-    #
+    #     assets/portrait-source.png
+    # --------------------------------------------------------
+
     parser.add_argument(
         "input",
         nargs="?",
@@ -446,6 +674,10 @@ def main():
             "(default: assets/portrait-source.png)"
         )
     )
+
+    # --------------------------------------------------------
+    # OUTPUT
+    # --------------------------------------------------------
 
     parser.add_argument(
         "-o",
@@ -459,13 +691,26 @@ def main():
 
     args = parser.parse_args()
 
-    input_path = Path(args.input)
-    output_path = Path(args.output)
+    input_path = Path(
+        args.input
+    )
+
+    output_path = Path(
+        args.output
+    )
+
+    # --------------------------------------------------------
+    # VERIFY INPUT
+    # --------------------------------------------------------
 
     if not input_path.exists():
         raise FileNotFoundError(
             f"Could not find source image: {input_path}"
         )
+
+    # --------------------------------------------------------
+    # LOAD SOURCE IMAGE
+    # --------------------------------------------------------
 
     print("Loading portrait...")
 
@@ -478,33 +723,74 @@ def main():
         f"{image.width}x{image.height}"
     )
 
-    # The guide strongly recommends a high-resolution,
-    # tightly cropped source portrait.
-    if max(image.width, image.height) < 1200:
+    # --------------------------------------------------------
+    # SOURCE QUALITY WARNING
+    # --------------------------------------------------------
+    #
+    # A higher-resolution source preserves significantly more
+    # facial detail after downsampling to 90 ASCII columns.
+    # --------------------------------------------------------
+
+    if max(
+        image.width,
+        image.height
+    ) < 1200:
+
         print(
             "WARNING: Source image is below 1200px. "
             "A high-resolution, tightly cropped portrait "
             "will produce better facial detail."
         )
 
-    print("Removing background...")
+    # --------------------------------------------------------
+    # PROCESS IMAGE
+    # --------------------------------------------------------
 
-    gray = prepare_image(image)
+    print(
+        "Removing background..."
+    )
 
-    print("Applying bilateral filter, CLAHE, and darkening curve...")
+    gray = prepare_image(
+        image
+    )
 
-    print("Generating ASCII...")
+    print(
+        "Applied bilateral filtering, "
+        "CLAHE, and darkening curve."
+    )
 
-    lines = image_to_ascii(gray)
+    # --------------------------------------------------------
+    # GENERATE ASCII
+    # --------------------------------------------------------
+
+    print(
+        "Generating ASCII..."
+    )
+
+    lines = image_to_ascii(
+        gray
+    )
 
     print(
         f"ASCII dimensions: "
         f"{COLS} columns x {len(lines)} rows"
     )
 
-    print("Generating animated SVG...")
+    # --------------------------------------------------------
+    # GENERATE SVG
+    # --------------------------------------------------------
 
-    svg = generate_svg(lines)
+    print(
+        "Generating animated SVG..."
+    )
+
+    svg = generate_svg(
+        lines
+    )
+
+    # --------------------------------------------------------
+    # WRITE OUTPUT
+    # --------------------------------------------------------
 
     output_path.parent.mkdir(
         parents=True,
