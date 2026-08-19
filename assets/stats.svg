@@ -1,0 +1,420 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1000"
+    height="500"
+    viewBox="0 0 1000 500"
+    role="img"
+    aria-labelledby="title desc"
+>
+    <title id="title">
+        PublicStringTre GitHub Telemetry
+    </title>
+
+    <desc id="desc">
+        Automatically generated GitHub statistics for Anthony Fieldings III.
+    </desc>
+
+    <defs>
+
+        <linearGradient
+            id="background"
+            x1="0"
+            y1="0"
+            x2="1"
+            y2="1"
+        >
+            <stop
+                offset="0%"
+                stop-color="#08080d"
+            />
+
+            <stop
+                offset="60%"
+                stop-color="#0d0914"
+            />
+
+            <stop
+                offset="100%"
+                stop-color="#160923"
+            />
+        </linearGradient>
+
+        <linearGradient
+            id="graphGradient"
+            x1="0"
+            y1="0"
+            x2="1"
+            y2="0"
+        >
+            <stop
+                offset="0%"
+                stop-color="#7c3aed"
+            />
+
+            <stop
+                offset="50%"
+                stop-color="#c084fc"
+            />
+
+            <stop
+                offset="100%"
+                stop-color="#8b5cf6"
+            />
+        </linearGradient>
+
+        <filter
+            id="glow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%"
+        >
+            <feGaussianBlur
+                stdDeviation="3"
+                result="blur"
+            />
+
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+    </defs>
+
+
+    <!-- BACKGROUND -->
+
+    <rect
+        x="1"
+        y="1"
+        width="998"
+        height="498"
+        rx="18"
+        fill="url(#background)"
+        stroke="#342044"
+        stroke-width="2"
+    />
+
+
+    <!-- TERMINAL HEADER -->
+
+    <rect
+        x="1"
+        y="1"
+        width="998"
+        height="48"
+        rx="18"
+        fill="#111118"
+    />
+
+    <rect
+        x="1"
+        y="30"
+        width="998"
+        height="19"
+        fill="#111118"
+    />
+
+    <circle
+        cx="28"
+        cy="25"
+        r="6"
+        fill="#ff5f57"
+    />
+
+    <circle
+        cx="49"
+        cy="25"
+        r="6"
+        fill="#febc2e"
+    />
+
+    <circle
+        cx="70"
+        cy="25"
+        r="6"
+        fill="#28c840"
+    />
+
+    <text
+        x="500"
+        y="30"
+        text-anchor="middle"
+        fill="#777786"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="13"
+    >
+        telemetry@publicstringtre: ~/github
+    </text>
+
+
+    <!-- SECTION TITLE -->
+
+    <text
+        x="55"
+        y="95"
+        fill="#c084fc"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="14"
+        letter-spacing="2"
+    >
+        02 // GITHUB TELEMETRY
+    </text>
+
+    <text
+        x="55"
+        y="125"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="13"
+    >
+        PROFILE ACTIVITY // LAST 365 DAYS
+    </text>
+
+
+    <!-- PRIMARY METRIC 1 -->
+
+    <text
+        x="55"
+        y="190"
+        fill="#ffffff"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="34"
+        font-weight="700"
+    >
+        19
+    </text>
+
+    <text
+        x="55"
+        y="216"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        CONTRIBUTIONS
+    </text>
+
+
+    <!-- PRIMARY METRIC 2 -->
+
+    <text
+        x="290"
+        y="190"
+        fill="#ffffff"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="34"
+        font-weight="700"
+    >
+        14
+    </text>
+
+    <text
+        x="290"
+        y="216"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        COMMITS
+    </text>
+
+
+    <!-- PRIMARY METRIC 3 -->
+
+    <text
+        x="515"
+        y="190"
+        fill="#ffffff"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="34"
+        font-weight="700"
+    >
+        0
+    </text>
+
+    <text
+        x="515"
+        y="216"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        PULL REQUESTS
+    </text>
+
+
+    <!-- PRIMARY METRIC 4 -->
+
+    <text
+        x="740"
+        y="190"
+        fill="#ffffff"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="34"
+        font-weight="700"
+    >
+        12
+    </text>
+
+    <text
+        x="740"
+        y="216"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        PUBLIC REPOS
+    </text>
+
+
+    <!-- DIVIDER -->
+
+    <line
+        x1="55"
+        y1="248"
+        x2="945"
+        y2="248"
+        stroke="#342044"
+        stroke-width="1"
+    />
+
+
+    <!-- SECONDARY STATS -->
+
+    <text
+        x="55"
+        y="285"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        ACTIVE DAYS
+    </text>
+
+    <text
+        x="150"
+        y="285"
+        fill="#e4e4e7"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="15"
+        font-weight="700"
+    >
+        13
+    </text>
+
+
+    <text
+        x="310"
+        y="285"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        CURRENT STREAK
+    </text>
+
+    <text
+        x="435"
+        y="285"
+        fill="#c084fc"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="15"
+        font-weight="700"
+    >
+        2 DAYS
+    </text>
+
+
+    <text
+        x="620"
+        y="285"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        LONGEST STREAK
+    </text>
+
+    <text
+        x="750"
+        y="285"
+        fill="#e4e4e7"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="15"
+        font-weight="700"
+    >
+        2 DAYS
+    </text>
+
+
+    <!-- GRAPH LABEL -->
+
+    <text
+        x="55"
+        y="325"
+        fill="#71717a"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="11"
+    >
+        CONTRIBUTION SIGNAL
+    </text>
+
+
+    <!-- GRAPH BASELINE -->
+
+    <line
+        x1="65"
+        y1="405"
+        x2="935"
+        y2="405"
+        stroke="#27272a"
+        stroke-width="1"
+    />
+
+
+    <!-- CONTRIBUTION GRAPH -->
+
+    <polyline
+        points="65.0,405.0 82.1,405.0 99.1,355.0 116.2,405.0 133.2,405.0 150.3,405.0 167.4,355.0 184.4,355.0 201.5,355.0 218.5,380.0 235.6,380.0 252.6,405.0 269.7,405.0 286.8,405.0 303.8,405.0 320.9,405.0 337.9,405.0 355.0,405.0 372.1,405.0 389.1,405.0 406.2,405.0 423.2,405.0 440.3,405.0 457.4,405.0 474.4,405.0 491.5,405.0 508.5,405.0 525.6,405.0 542.6,380.0 559.7,405.0 576.8,405.0 593.8,405.0 610.9,405.0 627.9,405.0 645.0,405.0 662.1,405.0 679.1,405.0 696.2,405.0 713.2,405.0 730.3,405.0 747.4,405.0 764.4,355.0 781.5,355.0 798.5,380.0 815.6,405.0 832.6,405.0 849.7,405.0 866.8,405.0 883.8,405.0 900.9,405.0 917.9,405.0 935.0,330.0"
+        fill="none"
+        stroke="url(#graphGradient)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#glow)"
+    />
+
+
+    <!-- BOTTOM STATUS -->
+
+    <circle
+        cx="61"
+        cy="453"
+        r="5"
+        fill="#22c55e"
+    />
+
+    <text
+        x="75"
+        y="458"
+        fill="#a1a1aa"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="12"
+    >
+        SYSTEM ONLINE
+    </text>
+
+    <text
+        x="945"
+        y="458"
+        text-anchor="end"
+        fill="#52525b"
+        font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+        font-size="11"
+    >
+        DATA SOURCE // GITHUB API
+    </text>
+
+</svg>
