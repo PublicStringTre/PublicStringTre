@@ -1,5 +1,5 @@
-# Anthony Fieldings III
+<div align="center">
 
-AI Automation & Full-Stack Engineer
+<img src="./assets/hero.svg" width="100%" alt="Anthony Fieldings III — AI Automation and Full-Stack Engineer">
 
-Building AI-powered applications, automation systems, voice platforms, and production software.
+</div>
