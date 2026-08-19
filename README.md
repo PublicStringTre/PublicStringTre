@@ -22,4 +22,12 @@
   alt="PublicStringTre project-weighted language matrix"
 />
 
+<br><br>
+
+<img
+  src="./assets/activity.svg"
+  width="100%"
+  alt="PublicStringTre GitHub activity signal"
+/>
+
 </div>
