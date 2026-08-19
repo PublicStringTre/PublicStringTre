@@ -14,4 +14,12 @@
   alt="PublicStringTre GitHub telemetry"
 />
 
+<br><br>
+
+<img
+  src="./assets/languages.svg"
+  width="100%"
+  alt="PublicStringTre project-weighted language matrix"
+/>
+
 </div>

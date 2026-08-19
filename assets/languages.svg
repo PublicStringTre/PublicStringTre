@@ -1,0 +1,464 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1000"
+height="624"
+viewBox="0 0 1000 624"
+role="img"
+aria-labelledby="title desc">
+
+<title id="title">
+PublicStringTre Language Matrix
+</title>
+
+<desc id="desc">
+Project-weighted programming language composition from substantial
+personal repositories owned by Anthony Fieldings III.
+</desc>
+
+<defs>
+
+    <linearGradient
+        id="background"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="1"
+    >
+        <stop
+            offset="0%"
+            stop-color="#08080d"
+        />
+
+        <stop
+            offset="60%"
+            stop-color="#0d0914"
+        />
+
+        <stop
+            offset="100%"
+            stop-color="#160923"
+        />
+    </linearGradient>
+
+    <linearGradient
+        id="purpleBar"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="0"
+    >
+        <stop
+            offset="0%"
+            stop-color="#7c3aed"
+        />
+
+        <stop
+            offset="55%"
+            stop-color="#a855f7"
+        />
+
+        <stop
+            offset="100%"
+            stop-color="#c084fc"
+        />
+    </linearGradient>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect
+    x="1"
+    y="1"
+    width="998"
+    height="622"
+    rx="18"
+    fill="url(#background)"
+    stroke="#342044"
+    stroke-width="2"
+/>
+
+<!-- TERMINAL BAR -->
+
+<rect
+    x="1"
+    y="1"
+    width="998"
+    height="48"
+    rx="18"
+    fill="#111118"
+/>
+
+<rect
+    x="1"
+    y="30"
+    width="998"
+    height="19"
+    fill="#111118"
+/>
+
+<circle
+    cx="28"
+    cy="25"
+    r="6"
+    fill="#ff5f57"
+/>
+
+<circle
+    cx="49"
+    cy="25"
+    r="6"
+    fill="#febc2e"
+/>
+
+<circle
+    cx="70"
+    cy="25"
+    r="6"
+    fill="#28c840"
+/>
+
+<text
+    x="500"
+    y="30"
+    text-anchor="middle"
+    fill="#777786"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    linguist@publicstringtre: ~/repositories
+</text>
+
+<!-- TITLE -->
+
+<text
+    x="55"
+    y="91"
+    fill="#c084fc"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+    letter-spacing="2"
+>
+    03 // LANGUAGE MATRIX
+</text>
+
+<text
+    x="55"
+    y="120"
+    fill="#71717a"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="12"
+>
+    PROJECT-WEIGHTED // SUBSTANTIAL REPOSITORIES
+</text>
+
+<text
+    x="55"
+    y="145"
+    fill="#52525b"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="11"
+>
+    PUBLIC + PRIVATE // FORKS + ARCHIVES + PRACTICE REPOS FILTERED
+</text>
+
+
+<!-- HTML -->
+
+<text
+    x="55"
+    y="175"
+    fill="#e4e4e7"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+>
+    HTML
+</text>
+
+<text
+    x="945"
+    y="175"
+    text-anchor="end"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    30.4%
+</text>
+
+<rect
+    x="55"
+    y="190"
+    width="650"
+    height="10"
+    rx="5"
+    fill="#1c1723"
+/>
+
+<rect
+    x="55"
+    y="190"
+    width="197.9"
+    height="10"
+    rx="5"
+    fill="url(#purpleBar)"
+/>
+
+
+<!-- TypeScript -->
+
+<text
+    x="55"
+    y="229"
+    fill="#e4e4e7"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+>
+    TypeScript
+</text>
+
+<text
+    x="945"
+    y="229"
+    text-anchor="end"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    21.0%
+</text>
+
+<rect
+    x="55"
+    y="244"
+    width="650"
+    height="10"
+    rx="5"
+    fill="#1c1723"
+/>
+
+<rect
+    x="55"
+    y="244"
+    width="136.8"
+    height="10"
+    rx="5"
+    fill="url(#purpleBar)"
+/>
+
+
+<!-- C# -->
+
+<text
+    x="55"
+    y="283"
+    fill="#e4e4e7"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+>
+    C#
+</text>
+
+<text
+    x="945"
+    y="283"
+    text-anchor="end"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    20.4%
+</text>
+
+<rect
+    x="55"
+    y="298"
+    width="650"
+    height="10"
+    rx="5"
+    fill="#1c1723"
+/>
+
+<rect
+    x="55"
+    y="298"
+    width="132.3"
+    height="10"
+    rx="5"
+    fill="url(#purpleBar)"
+/>
+
+
+<!-- Python -->
+
+<text
+    x="55"
+    y="337"
+    fill="#e4e4e7"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+>
+    Python
+</text>
+
+<text
+    x="945"
+    y="337"
+    text-anchor="end"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    10.2%
+</text>
+
+<rect
+    x="55"
+    y="352"
+    width="650"
+    height="10"
+    rx="5"
+    fill="#1c1723"
+/>
+
+<rect
+    x="55"
+    y="352"
+    width="66.4"
+    height="10"
+    rx="5"
+    fill="url(#purpleBar)"
+/>
+
+
+<!-- CSS -->
+
+<text
+    x="55"
+    y="391"
+    fill="#e4e4e7"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+>
+    CSS
+</text>
+
+<text
+    x="945"
+    y="391"
+    text-anchor="end"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    9.2%
+</text>
+
+<rect
+    x="55"
+    y="406"
+    width="650"
+    height="10"
+    rx="5"
+    fill="#1c1723"
+/>
+
+<rect
+    x="55"
+    y="406"
+    width="59.9"
+    height="10"
+    rx="5"
+    fill="url(#purpleBar)"
+/>
+
+
+<!-- JavaScript -->
+
+<text
+    x="55"
+    y="445"
+    fill="#e4e4e7"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="14"
+    font-weight="600"
+>
+    JavaScript
+</text>
+
+<text
+    x="945"
+    y="445"
+    text-anchor="end"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="13"
+>
+    8.7%
+</text>
+
+<rect
+    x="55"
+    y="460"
+    width="650"
+    height="10"
+    rx="5"
+    fill="#1c1723"
+/>
+
+<rect
+    x="55"
+    y="460"
+    width="56.8"
+    height="10"
+    rx="5"
+    fill="url(#purpleBar)"
+/>
+
+
+<!-- FOOTER -->
+
+<line
+    x1="55"
+    y1="547"
+    x2="945"
+    y2="547"
+    stroke="#342044"
+    stroke-width="1"
+/>
+
+<circle
+    cx="61"
+    cy="572"
+    r="5"
+    fill="#22c55e"
+/>
+
+<text
+    x="75"
+    y="577"
+    fill="#a1a1aa"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="12"
+>
+    15 SUBSTANTIAL PROJECTS ANALYZED
+</text>
+
+<text
+    x="945"
+    y="577"
+    text-anchor="end"
+    fill="#52525b"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="11"
+>
+    PRIVATE REPOSITORY NAMES // HIDDEN
+</text>
+
+</svg>
