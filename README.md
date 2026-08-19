@@ -11,24 +11,17 @@
   alt="Anthony Fieldings III — AI Automation and Full-Stack Engineer"
 />
 
-
-<br><br>
-
 <img
   src="./assets/stats.svg"
   width="100%"
   alt="PublicStringTre GitHub telemetry"
 />
 
-<br><br>
-
 <img
   src="./assets/languages.svg"
   width="100%"
   alt="PublicStringTre project-weighted language matrix"
 />
-
-<br><br>
 
 <img
   src="./assets/activity.svg"
