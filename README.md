@@ -1,18 +1,16 @@
 <div align="center">
 
 <img
+  src="./assets/portrait.svg"
+  width="460"
+  alt="ASCII portrait of Anthony Fieldings III"
+/>
+<img
   src="./assets/hero.svg"
   width="100%"
   alt="Anthony Fieldings III — AI Automation and Full-Stack Engineer"
 />
 
-<br><br>
-
-<img
-  src="./assets/portrait.svg"
-  width="460"
-  alt="ASCII portrait of Anthony Fieldings III"
-/>
 
 <br><br>
 
