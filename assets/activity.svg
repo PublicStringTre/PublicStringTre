@@ -301,18 +301,6 @@ GitHub contribution activity over the last 365 days.
 
 <rect
     x="120"
-    y="221"
-    width="11"
-    height="11"
-    rx="2"
-    fill="#352044"
->
-    <title>2025-08-20 // 1 contributions</title>
-</rect>
-
-
-<rect
-    x="120"
     y="236"
     width="11"
     height="11"
@@ -377,7 +365,7 @@ GitHub contribution activity over the last 365 days.
     width="11"
     height="11"
     rx="2"
-    fill="#8b5cf6"
+    fill="#5b21b6"
 >
     <title>2025-08-26 // 6 contributions</title>
 </rect>
@@ -3593,7 +3581,7 @@ GitHub contribution activity over the last 365 days.
     width="11"
     height="11"
     rx="2"
-    fill="#5b21b6"
+    fill="#352044"
 >
     <title>2026-05-21 // 3 contributions</title>
 </rect>
@@ -3677,7 +3665,7 @@ GitHub contribution activity over the last 365 days.
     width="11"
     height="11"
     rx="2"
-    fill="#8b5cf6"
+    fill="#5b21b6"
 >
     <title>2026-05-28 // 6 contributions</title>
 </rect>
@@ -4675,7 +4663,19 @@ GitHub contribution activity over the last 365 days.
     rx="2"
     fill="#c084fc"
 >
-    <title>2026-08-19 // 10 contributions</title>
+    <title>2026-08-19 // 12 contributions</title>
+</rect>
+
+
+<rect
+    x="900"
+    y="236"
+    width="11"
+    height="11"
+    rx="2"
+    fill="#17131d"
+>
+    <title>2026-08-20 // 0 contributions</title>
 </rect>
 
 
@@ -4700,7 +4700,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    61
+    62
 </text>
 
 <text
@@ -4722,7 +4722,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    25
+    24
 </text>
 
 <text
@@ -4744,7 +4744,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    10
+    12
 </text>
 
 <text
@@ -4766,7 +4766,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    2.4
+    2.6
 </text>
 
 <text
