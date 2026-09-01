@@ -264,6 +264,17 @@ GitHub contribution activity over the last 365 days.
 </text>
 
 
+<text
+    x="900"
+    y="158"
+    fill="#71717a"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="10"
+>
+    SEP
+</text>
+
+
 <!-- WEEKDAY LABELS -->
 
 <text
@@ -297,18 +308,6 @@ GitHub contribution activity over the last 365 days.
 </text>
 
 <!-- CONTRIBUTION FIELD -->
-
-
-<rect
-    x="120"
-    y="191"
-    width="11"
-    height="11"
-    rx="2"
-    fill="#17131d"
->
-    <title>2025-09-01 // 0 contributions</title>
-</rect>
 
 
 <rect
@@ -4676,6 +4675,18 @@ GitHub contribution activity over the last 365 days.
     fill="#17131d"
 >
     <title>2026-08-31 // 0 contributions</title>
+</rect>
+
+
+<rect
+    x="900"
+    y="206"
+    width="11"
+    height="11"
+    rx="2"
+    fill="#17131d"
+>
+    <title>2026-09-01 // 0 contributions</title>
 </rect>
 
 
