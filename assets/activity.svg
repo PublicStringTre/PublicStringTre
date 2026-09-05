@@ -312,18 +312,6 @@ GitHub contribution activity over the last 365 days.
 
 <rect
     x="120"
-    y="251"
-    width="11"
-    height="11"
-    rx="2"
-    fill="#17131d"
->
-    <title>2025-09-05 // 0 contributions</title>
-</rect>
-
-
-<rect
-    x="120"
     y="266"
     width="11"
     height="11"
@@ -4687,6 +4675,18 @@ GitHub contribution activity over the last 365 days.
     fill="#17131d"
 >
     <title>2026-09-04 // 0 contributions</title>
+</rect>
+
+
+<rect
+    x="900"
+    y="266"
+    width="11"
+    height="11"
+    rx="2"
+    fill="#17131d"
+>
+    <title>2026-09-05 // 0 contributions</title>
 </rect>
 
 
