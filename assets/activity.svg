@@ -312,18 +312,6 @@ GitHub contribution activity over the last 365 days.
 
 <rect
     x="120"
-    y="206"
-    width="11"
-    height="11"
-    rx="2"
-    fill="#352044"
->
-    <title>2025-10-07 // 2 contributions</title>
-</rect>
-
-
-<rect
-    x="120"
     y="221"
     width="11"
     height="11"
@@ -4690,6 +4678,18 @@ GitHub contribution activity over the last 365 days.
 </rect>
 
 
+<rect
+    x="900"
+    y="221"
+    width="11"
+    height="11"
+    rx="2"
+    fill="#17131d"
+>
+    <title>2026-10-07 // 0 contributions</title>
+</rect>
+
+
 <!-- DIVIDER -->
 
 <line
@@ -4711,7 +4711,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    54
+    52
 </text>
 
 <text
@@ -4733,7 +4733,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    22
+    21
 </text>
 
 <text
