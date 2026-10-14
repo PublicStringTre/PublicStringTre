@@ -133,17 +133,6 @@ GitHub contribution activity over the last 365 days.
 
 
 <text
-    x="120"
-    y="158"
-    fill="#71717a"
-    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
-    font-size="10"
->
-    OCT
-</text>
-
-
-<text
     x="150"
     y="158"
     fill="#71717a"
@@ -308,18 +297,6 @@ GitHub contribution activity over the last 365 days.
 </text>
 
 <!-- CONTRIBUTION FIELD -->
-
-
-<rect
-    x="120"
-    y="206"
-    width="11"
-    height="11"
-    rx="2"
-    fill="#352044"
->
-    <title>2025-10-14 // 2 contributions</title>
-</rect>
 
 
 <rect
@@ -4690,6 +4667,18 @@ GitHub contribution activity over the last 365 days.
 </rect>
 
 
+<rect
+    x="900"
+    y="221"
+    width="11"
+    height="11"
+    rx="2"
+    fill="#17131d"
+>
+    <title>2026-10-14 // 0 contributions</title>
+</rect>
+
+
 <!-- DIVIDER -->
 
 <line
@@ -4711,7 +4700,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    53
+    51
 </text>
 
 <text
@@ -4733,7 +4722,7 @@ GitHub contribution activity over the last 365 days.
     font-size="25"
     font-weight="700"
 >
-    22
+    21
 </text>
 
 <text
